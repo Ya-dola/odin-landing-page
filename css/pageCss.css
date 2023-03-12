@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /*Elements*/
 
@@ -35,11 +36,12 @@ ul {
 
 .header_logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   color: #F9FAF8;
 }
 
-.hero_secondary, .header_links {
+.hero_sec_txt, .header_links {
+  font-weight: 100;
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -59,10 +61,20 @@ ul {
 .hero {
   display: flex;
   justify-content: space-around;
-  margin: 20px 0;
+  /*align-items: center;*/
+  padding: 48px;
   background: #1F2937;
+  gap: 30px;
 }
 
-.hero_main {
-  
+.hero_main_txt {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero_main_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
