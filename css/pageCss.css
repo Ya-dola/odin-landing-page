@@ -50,17 +50,16 @@ button {
 .section_1 {
   background: #1F2937;
   color: #E5E7EB;
-  padding: 24px;
+  padding: 24px 24px 46px;
 }
 
 .section_1 .container {
-  gap: 60px;
+  gap: 40px;
 }
 
 .section_1 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: flex-end;
 }
 
@@ -121,10 +120,10 @@ button {
 }
 
 .section_2 .container {
-  gap: 20px;
+  gap: 14px;
 }
 
-.section_2 .info {
+.section_2 .info_header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,6 +133,35 @@ button {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+}
+
+.section_2 .info_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.section_2 .info_details .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  max-width: 150px;
+  gap: 10px;
+}
+
+.card_img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background: #3882F6;
+}
+
+.card_txt {
+  display: flex;
+  text-align: center;
 }
 
 .footer {
