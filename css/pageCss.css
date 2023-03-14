@@ -6,7 +6,6 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -160,8 +159,42 @@ button {
 }
 
 .card_txt {
-  display: flex;
   text-align: center;
+  font-weight: 300;
+}
+
+/*Section 3*/
+.section_3 {
+  background: #E5E7EB;
+  padding: 24px;
+}
+
+.section_3 .container {
+  gap: 12px;
+  padding: 0 250px;
+}
+
+.section_3 .quote_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.section_3 .quote_footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quotee {
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .footer {
